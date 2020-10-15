@@ -157,7 +157,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Script Description",
                                      epilog="Usage: ' python save2xl_tabs' ")
 
-    parser.add_argument('-f', '--filename', help='Excel filename. Default=SHOW-YYYY-MM_DD', action='store',
+    parser.add_argument('-f', '--filename', help='Excel filename. Default=DEFAULT-YYYY-MM_DD', action='store',
                         default="DEFAULT")
     arguments = parser.parse_args()
     main()
